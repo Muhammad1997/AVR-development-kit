@@ -1,0 +1,2 @@
+dont connect pc2-pc3-pc4-pc5 neither input nor output
+             24--25--26--27
