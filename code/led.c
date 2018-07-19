@@ -1,49 +1,38 @@
 #define F_CPU 1000000UL
 #include <avr/io.h>
 #include <avr/delay.h>
-//LED test 
-//connect from b0 - b7
+//7-seg test 
+//connect 7-seg from D0 - D7
+//connect trans C0,C1,C6,C7
+
+char 7seg [] = {0xC0,0xF9,0xA4,0xB0,0x99,0x92,0x82,0xF8,0x80,0x90};
+void num (int i);
+int i,j,k,l;
 int main(void)
 {
-	DDRB = 0xff;
+	DDRD = 0xff;
+	DDRC = 0xff;
     while (1) 
 	
-    {
-		PORTB = 0b11111111;
-		_delay_ms(1000);
-		PORTB = 0b00000000;
-		_delay_ms(500);
-		PORTB = 0b00000001;
-		_delay_ms(500);
-		PORTB = 0b00000010;
-		_delay_ms(500);
-		PORTB = 0b00000100;
-		_delay_ms(500);
-		PORTB = 0b00001000;
-		_delay_ms(500);
-		PORTB = 0b00010000;
-		_delay_ms(500);
-		PORTB = 0b00100000;
-		_delay_ms(500);
-		PORTB = 0b01000000;
-		_delay_ms(500);
-		PORTB = 0b10000000;
-		_delay_ms(500);
-		PORTB = 0b11000000;
-		_delay_ms(500);
-		PORTB = 0b11100000;
-		_delay_ms(500);
-		PORTB = 0b11110000;
-		_delay_ms(500);
-		PORTB = 0b11111000;
-		_delay_ms(500);
-		PORTB = 0b11111100;
-		_delay_ms(500);
-		PORTB = 0b11111110;
-		_delay_ms(500);
-		PORTB = 0b11111111;
-		_delay_ms(1000);
-		
+    {	
     }
 }
 
+void num (int number){
+	l = number%10;
+	number = number/10;
+	
+	k = number%10;
+	number = number/10;
+	
+	j = number%10;
+	number = number/10;
+	
+	i = number%10;
+	number = number/10;
+	
+	PORTC = 0b0000001;
+	PORTD = 7seg[i];
+	_delay_ms
+	
+}
