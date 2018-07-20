@@ -1027,6 +1027,40 @@ grid 5.08 mm</description>
 </package>
 </packages>
 </library>
+<library name="switch-tact">
+<description>&lt;b&gt;Diptronics THMD &amp; SMD tact switches&lt;/b&gt;
+&lt;p&gt;&lt;ul&gt;
+&lt;li&gt;DTS-3: 3.5x6mm THMD tact switch
+&lt;li&gt;DTS-6, DTS-64: 6x6mm THMD tact switch
+&lt;li&gt;DTSM-3: 3.5x6mm SMD tact switch
+&lt;li&gt;DTSM-6, DTSM-64: 6x6mm SMD tact switch
+&lt;/ul&gt;&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;Doublecheck before using!&lt;/b&gt;&lt;/p&gt;</description>
+<packages>
+<package name="DTS-3">
+<wire x1="-3" y1="1.75" x2="3" y2="1.75" width="0.2032" layer="51"/>
+<wire x1="3" y1="1.75" x2="3" y2="-1.75" width="0.2032" layer="51"/>
+<wire x1="3" y1="-1.75" x2="-3" y2="-1.75" width="0.2032" layer="51"/>
+<wire x1="-3" y1="-1.75" x2="-3" y2="1.75" width="0.2032" layer="51"/>
+<wire x1="-1.5" y1="0.75" x2="1.5" y2="0.75" width="0.2032" layer="51"/>
+<wire x1="1.5" y1="0.75" x2="1.5" y2="-0.75" width="0.2032" layer="51"/>
+<wire x1="1.5" y1="-0.75" x2="-1.5" y2="-0.75" width="0.2032" layer="51"/>
+<wire x1="-1.5" y1="-0.75" x2="-1.5" y2="0.75" width="0.2032" layer="51"/>
+<wire x1="-3" y1="1.75" x2="-3" y2="1.5" width="0.2032" layer="21"/>
+<wire x1="-3" y1="1.75" x2="3" y2="1.75" width="0.2032" layer="21"/>
+<wire x1="3" y1="1.75" x2="3" y2="1.5" width="0.2032" layer="21"/>
+<wire x1="3" y1="-1.5" x2="3" y2="-1.75" width="0.2032" layer="21"/>
+<wire x1="3" y1="-1.75" x2="-3" y2="-1.75" width="0.2032" layer="21"/>
+<wire x1="-3" y1="-1.75" x2="-3" y2="-1.5" width="0.2032" layer="21"/>
+<wire x1="-1" y1="0.75" x2="1" y2="0.75" width="0.2032" layer="21"/>
+<wire x1="-1" y1="-0.75" x2="1" y2="-0.75" width="0.2032" layer="21"/>
+<pad name="1" x="-3.25" y="0" drill="1.3" shape="long"/>
+<pad name="2" x="3.25" y="0" drill="1.3" shape="long"/>
+<text x="-2.54" y="2.54" size="1.27" layer="25">&gt;NAME</text>
+<text x="-2.54" y="-3.81" size="1.27" layer="27">&gt;VALUE</text>
+</package>
+</packages>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -1260,6 +1294,29 @@ design rules under a new name.</description>
 <element name="R4" library="SparkFun-Resistors" package="AXIAL-0.3" value="10M" x="40.64" y="78.74">
 <attribute name="PROD_ID" value="RES-09327" x="40.64" y="78.74" size="1.778" layer="27" display="off"/>
 </element>
+<element name="R5" library="SparkFun-Resistors" package="AXIAL-0.3" value="10M" x="54.61" y="68.58">
+<attribute name="PROD_ID" value="RES-09327" x="54.61" y="68.58" size="1.778" layer="27" display="off"/>
+</element>
+<element name="R6" library="SparkFun-Resistors" package="AXIAL-0.3" value="10M" x="54.61" y="64.77">
+<attribute name="PROD_ID" value="RES-09327" x="54.61" y="64.77" size="1.778" layer="27" display="off"/>
+</element>
+<element name="S1" library="switch-tact" package="DTS-3" value="DTS-3" x="96.52" y="93.98"/>
+<element name="SW5" library="special" library_urn="urn:adsk.eagle:library:367" package="EDG-08" package3d_urn="urn:adsk.eagle:package:26659/2" value="" x="76.2" y="85.09" rot="R90"/>
+<element name="S2" library="switch-tact" package="DTS-3" value="DTS-3" x="111.76" y="93.98"/>
+<element name="S3" library="switch-tact" package="DTS-3" value="DTS-3" x="127" y="93.98"/>
+<element name="S4" library="switch-tact" package="DTS-3" value="DTS-3" x="142.24" y="93.98"/>
+<element name="S5" library="switch-tact" package="DTS-3" value="DTS-3" x="96.52" y="87.63"/>
+<element name="S6" library="switch-tact" package="DTS-3" value="DTS-3" x="111.76" y="87.63"/>
+<element name="S7" library="switch-tact" package="DTS-3" value="DTS-3" x="127" y="87.63"/>
+<element name="S8" library="switch-tact" package="DTS-3" value="DTS-3" x="142.24" y="87.63"/>
+<element name="S9" library="switch-tact" package="DTS-3" value="DTS-3" x="96.52" y="81.28"/>
+<element name="S10" library="switch-tact" package="DTS-3" value="DTS-3" x="111.76" y="81.28"/>
+<element name="S11" library="switch-tact" package="DTS-3" value="DTS-3" x="127" y="81.28"/>
+<element name="S12" library="switch-tact" package="DTS-3" value="DTS-3" x="142.24" y="81.28"/>
+<element name="S13" library="switch-tact" package="DTS-3" value="DTS-3" x="96.52" y="74.93"/>
+<element name="S14" library="switch-tact" package="DTS-3" value="DTS-3" x="111.76" y="74.93"/>
+<element name="S15" library="switch-tact" package="DTS-3" value="DTS-3" x="127" y="74.93"/>
+<element name="S16" library="switch-tact" package="DTS-3" value="DTS-3" x="142.24" y="74.93"/>
 </elements>
 <signals>
 <signal name="AVCC">
@@ -1564,7 +1621,7 @@ design rules under a new name.</description>
 <contactref element="POT1" pad="E"/>
 <contactref element="T2" pad="C"/>
 <contactref element="T1" pad="C"/>
-<wire x1="41.91" y1="68.58" x2="40.64" y2="49.53" width="0" layer="19" extent="1-1"/>
+<wire x1="40.64" y1="49.53" x2="41.91" y2="68.58" width="0" layer="19" extent="1-1"/>
 <wire x1="55.88" y1="25.4" x2="40.64" y2="49.53" width="0" layer="19" extent="1-1"/>
 <wire x1="17.78" y1="25.4" x2="40.64" y2="49.53" width="0" layer="19" extent="1-1"/>
 <wire x1="12.7" y1="21.59" x2="17.78" y2="25.4" width="0" layer="19" extent="1-1"/>
@@ -1622,16 +1679,6 @@ design rules under a new name.</description>
 <contactref element="U$3" pad="3"/>
 <wire x1="35.56" y1="55.88" x2="29.21" y2="46.99" width="0" layer="19" extent="1-1"/>
 </signal>
-<signal name="N$10">
-<contactref element="T1" pad="E"/>
-<contactref element="SW4" pad="3"/>
-<wire x1="40.64" y1="44.45" x2="43.18" y2="58.42" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="N$11">
-<contactref element="T2" pad="E"/>
-<contactref element="SW4" pad="4"/>
-<wire x1="41.91" y1="63.5" x2="43.18" y2="55.88" width="0" layer="19" extent="1-1"/>
-</signal>
 <signal name="N$4">
 <contactref element="R3" pad="P$2"/>
 <contactref element="T1" pad="B"/>
@@ -1641,6 +1688,154 @@ design rules under a new name.</description>
 <contactref element="R4" pad="P$2"/>
 <contactref element="T2" pad="B"/>
 <wire x1="44.45" y1="78.74" x2="41.91" y2="66.04" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$11">
+<contactref element="T2" pad="E"/>
+<contactref element="R6" pad="P$1"/>
+<wire x1="50.8" y1="64.77" x2="41.91" y2="63.5" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$10">
+<contactref element="T1" pad="E"/>
+<contactref element="R5" pad="P$1"/>
+<wire x1="50.8" y1="68.58" x2="40.64" y2="44.45" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$26">
+<contactref element="R6" pad="P$2"/>
+<contactref element="SW4" pad="4"/>
+<wire x1="58.42" y1="64.77" x2="43.18" y2="55.88" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$28">
+<contactref element="R5" pad="P$2"/>
+<contactref element="SW4" pad="3"/>
+<wire x1="58.42" y1="68.58" x2="43.18" y2="58.42" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="A7">
+<contactref element="IC1" pad="33"/>
+<contactref element="SW5" pad="1"/>
+<wire x1="68.58" y1="57.15" x2="80.01" y2="76.2" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="A6">
+<contactref element="IC1" pad="34"/>
+<contactref element="SW5" pad="2"/>
+<wire x1="66.04" y1="57.15" x2="80.01" y2="78.74" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="A5">
+<contactref element="IC1" pad="35"/>
+<contactref element="SW5" pad="3"/>
+<wire x1="63.5" y1="57.15" x2="80.01" y2="81.28" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="A4">
+<contactref element="IC1" pad="36"/>
+<contactref element="SW5" pad="4"/>
+<wire x1="60.96" y1="57.15" x2="80.01" y2="83.82" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="A3">
+<contactref element="IC1" pad="37"/>
+<contactref element="SW5" pad="5"/>
+<wire x1="58.42" y1="57.15" x2="80.01" y2="86.36" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="A2">
+<contactref element="IC1" pad="38"/>
+<contactref element="SW5" pad="6"/>
+<wire x1="55.88" y1="57.15" x2="80.01" y2="88.9" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="A1">
+<contactref element="IC1" pad="39"/>
+<contactref element="SW5" pad="7"/>
+<wire x1="53.34" y1="57.15" x2="80.01" y2="91.44" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="A0">
+<contactref element="IC1" pad="40"/>
+<contactref element="SW5" pad="8"/>
+<wire x1="50.8" y1="57.15" x2="80.01" y2="93.98" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$12">
+<contactref element="S1" pad="2"/>
+<contactref element="S5" pad="2"/>
+<contactref element="S9" pad="2"/>
+<contactref element="S13" pad="2"/>
+<contactref element="SW5" pad="13"/>
+<wire x1="99.77" y1="87.63" x2="99.77" y2="81.28" width="0" layer="19" extent="1-1"/>
+<wire x1="99.77" y1="74.93" x2="99.77" y2="81.28" width="0" layer="19" extent="1-1"/>
+<wire x1="72.39" y1="83.82" x2="99.77" y2="87.63" width="0" layer="19" extent="1-1"/>
+<wire x1="99.77" y1="93.98" x2="72.39" y2="83.82" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$27">
+<contactref element="S2" pad="2"/>
+<contactref element="S6" pad="2"/>
+<contactref element="S10" pad="2"/>
+<contactref element="S14" pad="2"/>
+<contactref element="SW5" pad="14"/>
+<wire x1="115.01" y1="87.63" x2="115.01" y2="81.28" width="0" layer="19" extent="1-1"/>
+<wire x1="115.01" y1="93.98" x2="115.01" y2="87.63" width="0" layer="19" extent="1-1"/>
+<wire x1="72.39" y1="81.28" x2="115.01" y2="93.98" width="0" layer="19" extent="1-1"/>
+<wire x1="115.01" y1="74.93" x2="115.01" y2="81.28" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$30">
+<contactref element="S3" pad="2"/>
+<contactref element="S7" pad="2"/>
+<contactref element="S11" pad="2"/>
+<contactref element="S15" pad="2"/>
+<contactref element="SW5" pad="15"/>
+<wire x1="130.25" y1="93.98" x2="130.25" y2="87.63" width="0" layer="19" extent="1-1"/>
+<wire x1="72.39" y1="78.74" x2="130.25" y2="93.98" width="0" layer="19" extent="1-1"/>
+<wire x1="130.25" y1="81.28" x2="130.25" y2="87.63" width="0" layer="19" extent="1-1"/>
+<wire x1="130.25" y1="74.93" x2="130.25" y2="81.28" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$31">
+<contactref element="S4" pad="1"/>
+<contactref element="S3" pad="1"/>
+<contactref element="S2" pad="1"/>
+<contactref element="S1" pad="1"/>
+<contactref element="SW5" pad="9"/>
+<wire x1="72.39" y1="93.98" x2="93.27" y2="93.98" width="0" layer="19" extent="1-1"/>
+<wire x1="108.51" y1="93.98" x2="72.39" y2="93.98" width="0" layer="19" extent="1-1"/>
+<wire x1="123.75" y1="93.98" x2="108.51" y2="93.98" width="0" layer="19" extent="1-1"/>
+<wire x1="138.99" y1="93.98" x2="123.75" y2="93.98" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$34">
+<contactref element="S4" pad="2"/>
+<contactref element="S8" pad="2"/>
+<contactref element="S12" pad="2"/>
+<contactref element="S16" pad="2"/>
+<contactref element="SW5" pad="16"/>
+<wire x1="145.49" y1="93.98" x2="145.49" y2="87.63" width="0" layer="19" extent="1-1"/>
+<wire x1="72.39" y1="76.2" x2="145.49" y2="93.98" width="0" layer="19" extent="1-1"/>
+<wire x1="145.49" y1="81.28" x2="145.49" y2="87.63" width="0" layer="19" extent="1-1"/>
+<wire x1="145.49" y1="74.93" x2="145.49" y2="81.28" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$41">
+<contactref element="S8" pad="1"/>
+<contactref element="S7" pad="1"/>
+<contactref element="S6" pad="1"/>
+<contactref element="S5" pad="1"/>
+<contactref element="SW5" pad="10"/>
+<wire x1="123.75" y1="87.63" x2="138.99" y2="87.63" width="0" layer="19" extent="1-1"/>
+<wire x1="108.51" y1="87.63" x2="123.75" y2="87.63" width="0" layer="19" extent="1-1"/>
+<wire x1="93.27" y1="87.63" x2="108.51" y2="87.63" width="0" layer="19" extent="1-1"/>
+<wire x1="72.39" y1="91.44" x2="93.27" y2="87.63" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$49">
+<contactref element="S12" pad="1"/>
+<contactref element="S11" pad="1"/>
+<contactref element="S10" pad="1"/>
+<contactref element="S9" pad="1"/>
+<contactref element="SW5" pad="11"/>
+<wire x1="93.27" y1="81.28" x2="108.51" y2="81.28" width="0" layer="19" extent="1-1"/>
+<wire x1="123.75" y1="81.28" x2="108.51" y2="81.28" width="0" layer="19" extent="1-1"/>
+<wire x1="138.99" y1="81.28" x2="123.75" y2="81.28" width="0" layer="19" extent="1-1"/>
+<wire x1="72.39" y1="88.9" x2="93.27" y2="81.28" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$57">
+<contactref element="S16" pad="1"/>
+<contactref element="S15" pad="1"/>
+<contactref element="S14" pad="1"/>
+<contactref element="S13" pad="1"/>
+<contactref element="SW5" pad="12"/>
+<wire x1="123.75" y1="74.93" x2="138.99" y2="74.93" width="0" layer="19" extent="1-1"/>
+<wire x1="108.51" y1="74.93" x2="123.75" y2="74.93" width="0" layer="19" extent="1-1"/>
+<wire x1="93.27" y1="74.93" x2="108.51" y2="74.93" width="0" layer="19" extent="1-1"/>
+<wire x1="72.39" y1="86.36" x2="93.27" y2="74.93" width="0" layer="19" extent="1-1"/>
 </signal>
 </signals>
 </board>

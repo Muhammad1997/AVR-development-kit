@@ -14,6 +14,7 @@ void SevenSeg_SetNumber(int num)
 	num = num/10;
 }
 
+void seven_seg(int num){
 	SevenSeg_SetNumber(num);
 	PORTB = array[i];
 	PORTD = 0b00000001;
