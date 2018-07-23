@@ -6680,6 +6680,9 @@ Big oval pads</description>
 <part name="S14" library="switch-tact" deviceset="DTS-3" device=""/>
 <part name="S15" library="switch-tact" deviceset="DTS-3" device=""/>
 <part name="S16" library="switch-tact" deviceset="DTS-3" device=""/>
+<part name="ANALOG" library="special" library_urn="urn:adsk.eagle:library:367" deviceset="SW_DIP-1" device="" package3d_urn="urn:adsk.eagle:package:26661/1"/>
+<part name="POT2" library="pot" deviceset="TRIM_EU-" device="B25P"/>
+<part name="ANALOG1" library="special" library_urn="urn:adsk.eagle:library:367" deviceset="SW_DIP-1" device="" package3d_urn="urn:adsk.eagle:package:26661/1"/>
 </parts>
 <sheets>
 <sheet>
@@ -6732,6 +6735,9 @@ Big oval pads</description>
 <instance part="S14" gate="G$1" x="-137.16" y="58.42" rot="R270"/>
 <instance part="S15" gate="G$1" x="-121.92" y="58.42" rot="R270"/>
 <instance part="S16" gate="G$1" x="-106.68" y="58.42" rot="R270"/>
+<instance part="ANALOG" gate="G$1" x="-50.8" y="170.18"/>
+<instance part="POT2" gate="1" x="-68.58" y="154.94"/>
+<instance part="ANALOG1" gate="G$1" x="-50.8" y="154.94"/>
 </instances>
 <busses>
 </busses>
@@ -7063,6 +7069,11 @@ Big oval pads</description>
 <pinref part="POT1" gate="1" pin="A"/>
 <junction x="167.64" y="68.58"/>
 <label x="152.4" y="68.58" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="POT2" gate="1" pin="A"/>
+<junction x="-68.58" y="149.86"/>
+<label x="-68.58" y="144.78" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="D0" class="0">
@@ -7403,6 +7414,16 @@ Big oval pads</description>
 <junction x="190.5" y="-33.02"/>
 <label x="195.58" y="-33.02" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="ANALOG" gate="G$1" pin="2"/>
+<junction x="-58.42" y="170.18"/>
+<label x="-68.58" y="170.18" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="POT2" gate="1" pin="E"/>
+<junction x="-68.58" y="160.02"/>
+<label x="-68.58" y="162.56" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="C0" class="0">
 <segment>
@@ -7672,6 +7693,11 @@ Big oval pads</description>
 <junction x="-43.18" y="91.44"/>
 <label x="-38.1" y="91.44" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="ANALOG1" gate="G$1" pin="1"/>
+<junction x="-43.18" y="154.94"/>
+<label x="-38.1" y="154.94" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="N$12" class="0">
 <segment>
@@ -7865,6 +7891,27 @@ Big oval pads</description>
 <wire x1="-142.24" y1="58.42" x2="-142.24" y2="50.8" width="0.1524" layer="91"/>
 <wire x1="-127" y1="58.42" x2="-127" y2="50.8" width="0.1524" layer="91"/>
 <wire x1="-111.76" y1="58.42" x2="-111.76" y2="50.8" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="AVCC" class="0">
+<segment>
+<pinref part="IC1" gate="G$1" pin="AVCC"/>
+<junction x="7.62" y="68.58"/>
+<label x="0" y="68.58" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="ANALOG" gate="G$1" pin="1"/>
+<junction x="-43.18" y="170.18"/>
+<label x="-38.1" y="170.18" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="N$29" class="0">
+<segment>
+<pinref part="POT2" gate="1" pin="S"/>
+<junction x="-63.5" y="154.94"/>
+<pinref part="ANALOG1" gate="G$1" pin="2"/>
+<junction x="-58.42" y="154.94"/>
+<wire x1="-63.5" y1="154.94" x2="-58.42" y2="154.94" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
