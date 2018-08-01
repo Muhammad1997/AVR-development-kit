@@ -8353,7 +8353,7 @@ Type: &lt;b&gt;SPC4077 / SPC 4078&lt;/b&gt;&lt;p&gt;</description>
 <instance part="R2" gate="G$1" x="228.6" y="170.18"/>
 <instance part="R1" gate="G$1" x="228.6" y="132.08"/>
 <instance part="LCD1" gate="G$1" x="231.14" y="40.64"/>
-<instance part="U$1" gate="G$1" x="78.74" y="58.42"/>
+<instance part="U$1" gate="G$1" x="-40.64" y="-55.88" rot="R90"/>
 <instance part="J1" gate="G$1" x="218.44" y="40.64" rot="R180"/>
 <instance part="SW2" gate="A" x="167.64" y="38.1"/>
 <instance part="BACK_LIGHT" gate="G$1" x="167.64" y="20.32"/>
@@ -8551,8 +8551,8 @@ Type: &lt;b&gt;SPC4077 / SPC 4078&lt;/b&gt;&lt;p&gt;</description>
 </segment>
 <segment>
 <pinref part="U$1" gate="G$1" pin="4"/>
-<junction x="88.9" y="58.42"/>
-<label x="96.52" y="58.42" size="1.778" layer="95"/>
+<junction x="-40.64" y="-45.72"/>
+<label x="-40.64" y="-38.1" size="1.778" layer="95" rot="R90"/>
 </segment>
 </net>
 <net name="B6" class="0">
@@ -8581,8 +8581,8 @@ Type: &lt;b&gt;SPC4077 / SPC 4078&lt;/b&gt;&lt;p&gt;</description>
 </segment>
 <segment>
 <pinref part="U$1" gate="G$1" pin="1"/>
-<junction x="71.12" y="60.96"/>
-<label x="58.42" y="60.96" size="1.778" layer="95"/>
+<junction x="-43.18" y="-63.5"/>
+<label x="-43.18" y="-76.2" size="1.778" layer="95" rot="R90"/>
 </segment>
 </net>
 <net name="B7" class="0">
@@ -8603,8 +8603,8 @@ Type: &lt;b&gt;SPC4077 / SPC 4078&lt;/b&gt;&lt;p&gt;</description>
 </segment>
 <segment>
 <pinref part="U$1" gate="G$1" pin="3"/>
-<junction x="71.12" y="58.42"/>
-<label x="58.42" y="58.42" size="1.778" layer="95"/>
+<junction x="-40.64" y="-63.5"/>
+<label x="-40.64" y="-76.2" size="1.778" layer="95" rot="R90"/>
 </segment>
 </net>
 <net name="B0" class="0">
@@ -8837,8 +8837,8 @@ Type: &lt;b&gt;SPC4077 / SPC 4078&lt;/b&gt;&lt;p&gt;</description>
 </segment>
 <segment>
 <pinref part="U$1" gate="G$1" pin="6"/>
-<junction x="88.9" y="55.88"/>
-<label x="96.52" y="55.88" size="1.778" layer="95"/>
+<junction x="-38.1" y="-45.72"/>
+<label x="-38.1" y="-38.1" size="1.778" layer="95" rot="R90"/>
 </segment>
 </net>
 <net name="D0" class="0">
@@ -9269,8 +9269,8 @@ Type: &lt;b&gt;SPC4077 / SPC 4078&lt;/b&gt;&lt;p&gt;</description>
 </segment>
 <segment>
 <pinref part="U$1" gate="G$1" pin="2"/>
-<junction x="88.9" y="60.96"/>
-<label x="96.52" y="60.96" size="1.778" layer="95"/>
+<junction x="-43.18" y="-45.72"/>
+<label x="-43.18" y="-38.1" size="1.778" layer="95" rot="R90"/>
 </segment>
 </net>
 <net name="C0" class="0">
@@ -9906,8 +9906,8 @@ Type: &lt;b&gt;SPC4077 / SPC 4078&lt;/b&gt;&lt;p&gt;</description>
 <net name="RESET" class="0">
 <segment>
 <pinref part="U$1" gate="G$1" pin="5"/>
-<junction x="71.12" y="55.88"/>
-<label x="58.42" y="55.88" size="1.778" layer="95"/>
+<junction x="-38.1" y="-63.5"/>
+<label x="-38.1" y="-76.2" size="1.778" layer="95" rot="R90"/>
 </segment>
 <segment>
 <pinref part="IC1" gate="G$1" pin="RESET"/>

@@ -8440,6 +8440,11 @@ Type: &lt;b&gt;SPC4077 / SPC 4078&lt;/b&gt;&lt;p&gt;</description>
 <wire x1="289.56" y1="-43.18" x2="248.92" y2="-43.18" width="0.1524" layer="91"/>
 <label x="241.3" y="-43.18" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="PORTB" gate="1" pin="7"/>
+<junction x="71.12" y="48.26"/>
+<label x="66.04" y="48.26" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="B2" class="0">
 <segment>
@@ -8459,6 +8464,11 @@ Type: &lt;b&gt;SPC4077 / SPC 4078&lt;/b&gt;&lt;p&gt;</description>
 <junction x="248.92" y="-45.72"/>
 <wire x1="289.56" y1="-45.72" x2="248.92" y2="-45.72" width="0.1524" layer="91"/>
 <label x="241.3" y="-45.72" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="PORTB" gate="1" pin="6"/>
+<junction x="71.12" y="50.8"/>
+<label x="66.04" y="50.8" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="B3" class="0">
@@ -8480,6 +8490,11 @@ Type: &lt;b&gt;SPC4077 / SPC 4078&lt;/b&gt;&lt;p&gt;</description>
 <wire x1="289.56" y1="-48.26" x2="248.92" y2="-48.26" width="0.1524" layer="91"/>
 <label x="241.3" y="-48.26" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="PORTB" gate="1" pin="5"/>
+<junction x="71.12" y="53.34"/>
+<label x="66.04" y="53.34" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="B4" class="0">
 <segment>
@@ -8499,6 +8514,11 @@ Type: &lt;b&gt;SPC4077 / SPC 4078&lt;/b&gt;&lt;p&gt;</description>
 <junction x="248.92" y="-50.8"/>
 <wire x1="289.56" y1="-50.8" x2="248.92" y2="-50.8" width="0.1524" layer="91"/>
 <label x="241.3" y="-50.8" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="PORTB" gate="1" pin="4"/>
+<junction x="71.12" y="55.88"/>
+<label x="66.04" y="55.88" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="B5" class="0">
@@ -8520,6 +8540,11 @@ Type: &lt;b&gt;SPC4077 / SPC 4078&lt;/b&gt;&lt;p&gt;</description>
 <wire x1="289.56" y1="-53.34" x2="248.92" y2="-53.34" width="0.1524" layer="91"/>
 <label x="241.3" y="-53.34" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="PORTB" gate="1" pin="3"/>
+<junction x="71.12" y="58.42"/>
+<label x="66.04" y="58.42" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="B6" class="0">
 <segment>
@@ -8539,6 +8564,11 @@ Type: &lt;b&gt;SPC4077 / SPC 4078&lt;/b&gt;&lt;p&gt;</description>
 <junction x="248.92" y="-55.88"/>
 <wire x1="289.56" y1="-55.88" x2="248.92" y2="-55.88" width="0.1524" layer="91"/>
 <label x="241.3" y="-55.88" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="PORTB" gate="1" pin="2"/>
+<junction x="71.12" y="60.96"/>
+<label x="66.04" y="60.96" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="B7" class="0">
@@ -8576,6 +8606,11 @@ Type: &lt;b&gt;SPC4077 / SPC 4078&lt;/b&gt;&lt;p&gt;</description>
 <junction x="248.92" y="-40.64"/>
 <wire x1="289.56" y1="-40.64" x2="248.92" y2="-40.64" width="0.1524" layer="91"/>
 <label x="241.3" y="-40.64" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="PORTB" gate="1" pin="8"/>
+<junction x="71.12" y="45.72"/>
+<label x="66.04" y="45.72" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$8" class="0">
@@ -8765,6 +8800,11 @@ Type: &lt;b&gt;SPC4077 / SPC 4078&lt;/b&gt;&lt;p&gt;</description>
 <pinref part="PORTA" gate="1" pin="10"/>
 <junction x="71.12" y="71.12"/>
 <label x="83.82" y="71.12" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="PORTB" gate="1" pin="10"/>
+<junction x="71.12" y="40.64"/>
+<label x="83.82" y="40.64" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="D0" class="0">
@@ -9137,6 +9177,11 @@ Type: &lt;b&gt;SPC4077 / SPC 4078&lt;/b&gt;&lt;p&gt;</description>
 <pinref part="PORTA" gate="1" pin="9"/>
 <junction x="71.12" y="73.66"/>
 <label x="83.82" y="73.66" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="PORTB" gate="1" pin="9"/>
+<junction x="71.12" y="43.18"/>
+<label x="83.82" y="43.18" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="C0" class="0">
@@ -9733,69 +9778,6 @@ Type: &lt;b&gt;SPC4077 / SPC 4078&lt;/b&gt;&lt;p&gt;</description>
 <junction x="5.08" y="193.04"/>
 <wire x1="-5.08" y1="193.04" x2="5.08" y2="193.04" width="0.1524" layer="91"/>
 <wire x1="5.08" y1="208.28" x2="5.08" y2="193.04" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$38" class="0">
-<segment>
-<pinref part="PORTB" gate="1" pin="2"/>
-<junction x="71.12" y="60.96"/>
-<label x="66.04" y="60.96" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="N$40" class="0">
-<segment>
-<pinref part="PORTB" gate="1" pin="3"/>
-<junction x="71.12" y="58.42"/>
-<label x="66.04" y="58.42" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="N$42" class="0">
-<segment>
-<pinref part="PORTB" gate="1" pin="4"/>
-<junction x="71.12" y="55.88"/>
-<label x="66.04" y="55.88" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="N$43" class="0">
-<segment>
-<pinref part="PORTB" gate="1" pin="5"/>
-<junction x="71.12" y="53.34"/>
-<label x="66.04" y="53.34" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="N$44" class="0">
-<segment>
-<pinref part="PORTB" gate="1" pin="6"/>
-<junction x="71.12" y="50.8"/>
-<label x="66.04" y="50.8" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="N$45" class="0">
-<segment>
-<pinref part="PORTB" gate="1" pin="7"/>
-<junction x="71.12" y="48.26"/>
-<label x="66.04" y="48.26" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="N$46" class="0">
-<segment>
-<pinref part="PORTB" gate="1" pin="8"/>
-<junction x="71.12" y="45.72"/>
-<label x="66.04" y="45.72" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="N$47" class="0">
-<segment>
-<pinref part="PORTB" gate="1" pin="9"/>
-<junction x="71.12" y="43.18"/>
-<label x="83.82" y="43.18" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="N$48" class="0">
-<segment>
-<pinref part="PORTB" gate="1" pin="10"/>
-<junction x="71.12" y="40.64"/>
-<label x="83.82" y="40.64" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>

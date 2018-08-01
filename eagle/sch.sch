@@ -8333,6 +8333,7 @@ Type: &lt;b&gt;SPC4077 / SPC 4078&lt;/b&gt;&lt;p&gt;</description>
 <part name="PORTB" library="con-lstb" library_urn="urn:adsk.eagle:library:162" deviceset="MA10-1" device="" package3d_urn="urn:adsk.eagle:package:8346/1"/>
 <part name="PORTC" library="con-lstb" library_urn="urn:adsk.eagle:library:162" deviceset="MA10-1" device="" package3d_urn="urn:adsk.eagle:package:8346/1"/>
 <part name="PORTD" library="con-lstb" library_urn="urn:adsk.eagle:library:162" deviceset="MA10-1" device="" package3d_urn="urn:adsk.eagle:package:8346/1"/>
+<part name="S17" library="switch-tact" deviceset="DTS-3" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -8399,6 +8400,7 @@ Type: &lt;b&gt;SPC4077 / SPC 4078&lt;/b&gt;&lt;p&gt;</description>
 <instance part="PORTB" gate="1" x="15.24" y="-48.26" rot="MR90"/>
 <instance part="PORTC" gate="1" x="45.72" y="-48.26" rot="MR90"/>
 <instance part="PORTD" gate="1" x="76.2" y="-48.26" rot="MR90"/>
+<instance part="S17" gate="G$1" x="27.94" y="101.6" rot="R270"/>
 </instances>
 <busses>
 </busses>
@@ -8839,6 +8841,11 @@ Type: &lt;b&gt;SPC4077 / SPC 4078&lt;/b&gt;&lt;p&gt;</description>
 <pinref part="U$1" gate="G$1" pin="6"/>
 <junction x="-38.1" y="-45.72"/>
 <label x="-38.1" y="-38.1" size="1.778" layer="95" rot="R90"/>
+</segment>
+<segment>
+<pinref part="S17" gate="G$1" pin="2"/>
+<junction x="33.02" y="101.6"/>
+<label x="38.1" y="101.6" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="D0" class="0">
@@ -9913,6 +9920,10 @@ Type: &lt;b&gt;SPC4077 / SPC 4078&lt;/b&gt;&lt;p&gt;</description>
 <pinref part="IC1" gate="G$1" pin="RESET"/>
 <junction x="7.62" y="88.9"/>
 <label x="0" y="88.9" size="1.778" layer="95"/>
+<pinref part="S17" gate="G$1" pin="1"/>
+<junction x="22.86" y="101.6"/>
+<wire x1="22.86" y1="101.6" x2="7.62" y2="101.6" width="0.1524" layer="91"/>
+<wire x1="7.62" y1="101.6" x2="7.62" y2="88.9" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
